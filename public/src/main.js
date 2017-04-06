@@ -87,7 +87,7 @@ $(window).on("load", () => {
         pointToLayer: function(feature, latlng) {
           var dotIcon = new L.Icon({
             iconUrl: 'red-dot-md.png',
-            iconSize:     [5, 5],
+            iconSize:     [7, 7],
           });
           return L.marker(latlng, {icon: dotIcon});
         },
